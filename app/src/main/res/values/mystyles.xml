@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="TeamsName" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/teamsMarginBottom</item>
+        <item name="android:layout_marginTop">@dimen/teamsMarginTop</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/teamNameTextViews</item>
+        <item name="android:textSize">@dimen/sizeTeamNameTextViews</item>
+    </style>
+
+    <style name="ScoreValue" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/scorePointsValueMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/scorePointsValueMarginRight</item>
+        <item name="android:background">@color/backgroundScore</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/txt_ini_value</item>
+        <item name="android:textColor">@color/scoreTextViews</item>
+        <item name="android:textSize">@dimen/sizeScoreTextViews</item>
+    </style>
+
+    <style name="ScoreValue.Foul">
+        <item name="android:textSize">@dimen/sizeFoulsScoreTextViews</item>
+    </style>
+
+    <style name="PointsFoulsText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/pointsMarginBottom</item>
+        <item name="android:layout_marginTop">@dimen/pointsMarginTop</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/teamNameTextViews</item>
+        <item name="android:textSize">@dimen/sizeTeamNameTextViews</item>
+    </style>
+
+    <style name="ButtonsScore" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/buttonMargins</item>
+        <item name="android:layout_marginLeft">@dimen/buttonMargins</item>
+        <item name="android:layout_marginRight">@dimen/buttonMargins</item>
+        <item name="android:layout_marginStart">@dimen/buttonMargins</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:textSize">@dimen/sizeButtonText</item>
+
+    </style>
+
+    <style name="ButtonReset" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/buttonResetMarginBottom</item>
+        <item name="android:textColor">@color/buttonText</item>
+
+
+    </style>
+
+</resources>
+

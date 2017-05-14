@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quidditch Score</string>
+    <string name="team_a"><b>GRYFFINDOR</b></string>
+    <string name="team_b"><b>SLYTHERIN</b></string>
+    <string name="quaffle_text">+10 Quaffle</string>
+    <string name="fouls_text">Fouls</string>
+    <string name="points_text">Points</string>
+    <string name="reset_text">Reset</string>
+    <string name="snitch_text">+150 Snitch</string>
+    <string name="txt_ini_value">0</string>
+
+</resources>

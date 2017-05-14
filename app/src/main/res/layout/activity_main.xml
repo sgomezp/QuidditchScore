@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/snith_blur"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+
+            tools:context="com.example.android.courtcounter.MainActivity">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_name_a"
+                    style="@style/TeamsName"
+                    android:text="@string/team_a" />
+
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    style="@style/ScoreValue" />
+
+
+                <TextView
+                    style="@style/PointsFoulsText"
+                    android:text="@string/points_text" />
+
+
+                <TextView
+                    android:id="@+id/team_a_fouls_score"
+                    style="@style/ScoreValue.Foul" />
+
+
+                <TextView
+                    style="@style/PointsFoulsText"
+                    android:text="@string/fouls_text" />
+
+                <Button
+                    style="@style/ButtonsScore"
+                    android:layout_marginTop="@dimen/buttonQuaffleMarginTop"
+                    android:onClick="addTenForTeamA"
+                    android:text="@string/quaffle_text" />
+
+                <Button
+                    style="@style/ButtonsScore"
+                    android:layout_marginTop="@dimen/buttonsMarginTop"
+                    android:onClick="addOneHundredFiftyForTeamA"
+                    android:text="@string/snitch_text" />
+
+                <Button
+                    style="@style/ButtonsScore"
+                    android:layout_marginTop="@dimen/buttonsMarginTop"
+                    android:onClick="addOneFoulForTeamA"
+                    android:text="@string/fouls_text" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/lineMarginTop"
+                android:background="@android:color/darker_gray" />
+
+            <!-- Code for Team B -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/TeamsName"
+                    android:text="@string/team_b" />
+
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    style="@style/ScoreValue" />
+
+
+                <TextView
+                    style="@style/PointsFoulsText"
+                    android:text="@string/points_text" />
+
+                <TextView
+                    android:id="@+id/team_b_fouls_score"
+                    style="@style/ScoreValue.Foul" />
+
+                <TextView
+
+                    style="@style/PointsFoulsText"
+                    android:text="@string/fouls_text" />
+
+
+                <Button
+                    style="@style/ButtonsScore"
+                    android:layout_marginTop="@dimen/buttonQuaffleMarginTop"
+                    android:onClick="addTenForTeamB"
+                    android:text="@string/quaffle_text" />
+
+                <Button
+                    style="@style/ButtonsScore"
+                    android:layout_marginTop="@dimen/buttonsMarginTop"
+                    android:onClick="addOneHundredFiftyForTeamB"
+                    android:text="@string/snitch_text" />
+
+                <Button
+                    style="@style/ButtonsScore"
+                    android:layout_marginTop="@dimen/buttonsMarginTop"
+                    android:onClick="addOneFoulForTeamB"
+                    android:text="@string/fouls_text" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/resetCounters"
+            style="@style/ButtonReset"
+            android:onClick="resetCounters"
+            android:text="@string/reset_text" />
+
+    </RelativeLayout>
+
+</ScrollView>
